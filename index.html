@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Auto-Start Timer</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="timer-container">
+        <div id="timer">00:00</div>
+        <div id="hover-text">Congrats! You've become an expert in the art of wasting time here.</div>
+    </div>
+    <iframe src="http://www.staggeringbeauty.com/" style="border: 1px inset #ddd" width="498" height="598"></iframe>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        // Function to format time as MM:SS
+        function formatTime(seconds) {
+            const minutes = Math.floor(seconds / 60);
+            const remainingSeconds = seconds % 60;
+            return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+        }
+
+        // Function to start the timer
+        function startTimer() {
+            let seconds = 0;
+            const timerElement = document.getElementById('timer');
+            const hoverText = document.getElementById('hover-text');
+
+            // Update the timer every second
+            const intervalId = setInterval(() => {
+                timerElement.textContent = formatTime(seconds);
+                seconds++;
+            }, 1000);
+
+            // Hide the hover text initially
+            hoverText.style.display = 'none';
+
+            // Show the hover text on hover
+            timerElement.addEventListener('mouseenter', () => {
+                hoverText.style.display = 'block';
+            });
+
+            // Hide the hover text when the mouse leaves
+            timerElement.addEventListener('mouseleave', () => {
+                hoverText.style.display = 'none';
+            });
+        }
+
+        // Call the startTimer function when the page loads
+        window.onload = startTimer;
+    </script>
+</body>
+</html>

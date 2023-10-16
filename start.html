@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pill Selection</title>
+    <!-- Link to the external CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles-start.css">
+</head>
+<body>
+    <center><div class="game-text">Choose a pill to continue...</div></center>
+    <center><img src="matrix.jpg" alt="Workplace" usemap="#workmap"></center>
+
+    <map name="workmap">
+        <area shape="rect" id="bluePill"  coords="115,310,134,331" alt="Blue Pill">
+        <area shape="rect" id="redPill"  coords="381,314,406,327" alt="Red Pill" href="index.html">
+    </map>
+
+    <script>
+        // Array of possible links for the blue pill
+        var bluePillLinks = [
+            "https://www.youtube.com/watch?v=xMHJGd3wwZk",
+            "https://youtube.com/shorts/3oM-Ixx3Xcc?feature=shared",
+            "https://youtube.com/shorts/vNtBcT6tiug?feature=shared",
+            "https://youtu.be/kJa2kwoZ2a4?feature=shared",
+            "https://www.youtube.com/watch?v=UshfiTJk7NE",
+            "https://www.youtube.com/watch?v=9A5sxxFX8zM",
+            "http://www.staggeringbeauty.com/"
+        ];
+
+        // Get a random link from the array
+        var randomLink = bluePillLinks[Math.floor(Math.random() * bluePillLinks.length)];
+
+        // Set the href attribute of the blue pill with the random link
+        document.getElementById("bluePill").href = randomLink;
+    </script>
+</body>
+</html>
