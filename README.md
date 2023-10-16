@@ -30,10 +30,6 @@ If you're new to our project or just starting your journey in web development, t
 
 If you're an experienced developer or designer, this project offers a unique playground to let loose and have a blast with your skills. We welcome your contributions and creative chaos.
 
-## Code of Conduct
-
-To ensure a welcoming and inclusive environment, we follow a Code of Conduct. Please read and adhere to it, respecting everyone's right to enjoy the project.
-
 ## Getting Help
 
 If you're new to Git and GitHub, don't worry! There are plenty of excellent YouTube tutorials available to help you get started. We encourage you to watch a few of these to make your contribution journey smoother.
