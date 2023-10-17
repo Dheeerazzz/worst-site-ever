@@ -55,5 +55,29 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+
+        function shakeMeme(meme) {
+        meme.classList.add('shake');
+        setTimeout(() => {
+            meme.classList.remove('shake');
+            }, 800); // Adjust the duration of the shake animation (in milliseconds) if needed
+        }
+
+        window.onload = startTimer;
+    </script>
 </body>
 </html>
