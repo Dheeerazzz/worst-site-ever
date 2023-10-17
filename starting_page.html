@@ -11,6 +11,47 @@
         <div id="hover-text">Congrats! You've become an expert in the art of wasting time here.</div>
     </div>
     <iframe src="http://www.staggeringbeauty.com/" style="border: 1px inset #ddd" width="498" height="598"></iframe>
+    <header>
+        <h1>Gallery of Forgotten Memes</h1>
+    </header>
+    <section class="meme-gallery">
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme1.jpg" alt="Meme 1">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme2.jpeg" alt="Meme 2">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme3.webp" alt="Meme 3">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme4.jpeg" alt="Meme 4">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme5.jpg" alt="Meme 5">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme6.jpg" alt="Meme 6">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme7.jpeg" alt="Meme 7">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme8.webp" alt="Meme 8">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme9.webp" alt="Meme 9">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme10.jpeg" alt="Meme 10">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme11.jpg" alt="Meme 11">
+        </div>
+        <div class="meme" onmouseleave="shakeMeme(this)">
+            <img src="./images/Meme 12.jpg" alt="Meme 12">
+        </div>
+    </section>
 
 
 
@@ -58,6 +99,13 @@
             timerElement.addEventListener('mouseleave', () => {
                 hoverText.style.display = 'none';
             });
+        }
+
+        function shakeMeme(meme) {
+        meme.classList.add('shake');
+        setTimeout(() => {
+            meme.classList.remove('shake');
+            }, 800); // Adjust the duration of the shake animation (in milliseconds) if needed
         }
 
         window.onload = startTimer;
