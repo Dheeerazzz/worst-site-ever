@@ -2,13 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
 body {
     text-align: center;
-    background-color: #c9bfbf;
+    background-color: #f7a8a8;
     font-family: 'Cherry Swash';
 }
 
 .heading{
     font-size: 90px;
-    color: rgb(255, 176, 28);
+    color: rgb(7 21 255);
 
 }
 
