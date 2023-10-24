@@ -2,20 +2,25 @@
 @import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
 body {
     text-align: center;
-    background-color: #f7a8a8;
     font-family: 'Cherry Swash';
+    /*Setting background image*/
+
+    background-image: url('images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Set the background image as fixed */
 }
 
 .heading{
     font-size: 90px;
-    color: rgb(7 21 255);
+    color: rgb(10, 198, 123);
 
 }
 
-
-
 header{
     font-family: 'Cherry Swash';
+    color:darkgrey;
+
     font-size: 2rem;
 }
 
