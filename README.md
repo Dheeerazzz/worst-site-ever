@@ -1,6 +1,6 @@
 # Welcome to the "Worst Site Ever" Project
 
-![Terrible Website](https://media2.giphy.com/media/ITk4o4gUrBI9HvZaUm/200w.gif?cid=6c09b952ag6a6fxbd8lnpvpsqmzaedemqoewxwc5a5eft1on&ep=v1_videos_search&rid=200w.gif&ct=v)
+![Terrible Website](https://media2.giphy.com/media/ITk4o4gUrBI9HvZaUm/200w.gif?cid=6c09b952ag6a6fxbd8lnpvpsqmzaedemqoewxwc5a5eft1on&ep=v1_videos_search&rid=200w.gif&ct=v) 
 
 ## Introduction
 
